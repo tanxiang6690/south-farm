@@ -1,0 +1,63 @@
+/* style1 */
+
+.swiper-style-1 {
+    width: 1200px;
+    height: 650px;
+    position: relative;
+}
+
+.swiper-style-1 .swiper-button-prev,
+.swiper-style-1 .swiper-button-next {
+    width: 48px;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.swiper-style-1 .swiper-button-prev {
+    background: url(../../assets/img/pre.png);
+    left: 5px;
+}
+
+.swiper-style-1 .swiper-button-next {
+    background-image: url(../../assets/img/next.png);
+    right: 5px;
+}
+
+.swiper-style-1 .pagination {
+    width: 144px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 130px;
+}
+
+.swiper-style-1 .pagination .swiper-pagination-switch {
+    width: 18px;
+    height: 18px;
+    border: 0;
+    background-color: #8c8c8c;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+    margin: 0 9px;
+}
+
+.swiper-style-1 .pagination .swiper-pagination-switch:hover {
+    // background-color: rgba(0, 0, 0, .7);
+}
+
+.swiper-style-1 .pagination .swiper-active-switch {
+    background: #b03e3e;
+    cursor: default;
+}
+
+.swiper-slide img {
+    height: 100%;
+    width: 100%;
+}
